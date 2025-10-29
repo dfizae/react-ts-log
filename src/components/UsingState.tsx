@@ -18,6 +18,7 @@ export default function UsingState() {
     const clickHandler = () => {
         setFormState(prev => ({
             ...prev,              // 기존 값은 유지
+            name: '홍길동',           
             count: prev.count + 1 // count만 증가
         }));
     };
@@ -25,6 +26,7 @@ export default function UsingState() {
     return(
         <>
             <h1>숫자 : {formState.count}</h1>
+            <div>제출자 : {formState.name}</div>
             <button onClick = {clickHandler}>증가</button>
         </>
     );
