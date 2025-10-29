@@ -1,12 +1,30 @@
 import { useState } from "react";
 
+interface Form {
+    name: string;
+    count: number;
+    gender: string;
+}
+
 export default function UsingState() {
-    const [count, setCount] = useState<number>(0);
-    const clickHandler = () => setCount((count) => count + 1);
+    const [formState, setFormState] = useState<Form>(
+        { 
+            name: '',
+            count: 0,
+            gender: '',
+        }
+    );
+
+    const clickHandler = () => {
+        setFormState(prev => ({
+            ...prev,              // 기존 값은 유지
+            count: prev.count + 1 // count만 증가
+        }));
+    };
 
     return(
         <>
-            <h1>숫자 : {count}</h1>
+            <h1>숫자 : {formState.count}</h1>
             <button onClick = {clickHandler}>증가</button>
         </>
     );
