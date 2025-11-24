@@ -25,9 +25,11 @@ export default function UsingState() {
 
     return(
         <>
-            <h1>숫자 : {formState.count}</h1>
-            <div>제출자 : {formState.name}</div>
-            <button onClick = {clickHandler}>증가</button>
+           <div>
+                <h1>숫자 : {formState.count}</h1>
+                <div>제출자 : {formState.name}</div>
+                <button onClick = {clickHandler}>증가</button>
+           </div>
         </>
     );
 }

@@ -19,7 +19,7 @@ React + TypeScript 학습 기록 프로젝트입니다.
 |3장|props객체, 이벤트 - 1|2025-10-13|
 |4장|props객체, 이벤트 - 2|2025-10-21|
 |5장|컴포넌트의 상태(useState 훅)|2025-10-29|
-|6장|컴포넌트의 상태(useReducer 훅)|2025|
+|6장|컴포넌트의 상태(useReducer 훅)|2025-11-23|
 
 ---
 
@@ -33,15 +33,17 @@ REACT-TS-LOG/
 │   │   ├── .../
 ├── src/
 │   ├── components/
-│   │   ├── Footer.tsx : 2장 푸터 컴포넌트 예제
-│   │   ├── Header.tsx : 2장 헤더 컴포넌트 예제
-│   │   ├── Main.tsx : 2장 메인 컴포넌트 예제
-│   │   ├── UsingBubbling.tsx : 4장 버블링 예제 파일
-│   │   ├── UsingProps.tsx : 3장 props 객체 예제 파일 
-│   │   ├── UsingPropsEx2.tsx : 3장 props 객체 예제 파일 (심화)
-│   │   └── UsingState.tsx: 5장 useState 훅 예제 파일 
+│   │   ├── ch2/: 2장 컴포넌트 모음 폴더
+│   │   ├── ch3/: 3장 컴포넌트 모음 폴더
+│   │   ├── ch4/: 4장 컴포넌트 모음 폴더
+│   │   ├── ch5/: 5장 컴포넌트 모음 폴더
+│   │   └── ch6/: 6장 컴포넌트 모음 폴더
+│   │
 │   ├── types/
-│   │   ├── props.d.ts : 3장 인터페이스 파일 분리
+│   │   └── props.d.ts : 3장 인터페이스 파일 분리
+│   │
+│   └── reducer/ # 6장 reducer 훅 파일 모음 폴더
+│   │   └── ... 
 │   ├── App.css
 │   ├── App.tsx : 리액트 애플리케이션의 시작점
 │   ├── index.css 
@@ -70,6 +72,7 @@ REACT-TS-LOG/
 
 ### 📘 Velog (현재 기록)
 - [React + TS 5장 : 컴포넌트의 상태(useState 훅)](https://velog.io/@dfizae/ReactTS-5.-컴포넌트의-상태)
+- [React + TS 6장 : 컴포넌트의 상태(useReducer 훅 + state 활용)](https://velog.io/@dfizae/ReactTS-6.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%9D%98-%EC%83%81%ED%83%9C-useReducer-%ED%9B%85)
 
 ---
 
