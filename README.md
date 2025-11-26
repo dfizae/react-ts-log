@@ -19,7 +19,8 @@ React + TypeScript 학습 기록 프로젝트입니다.
 |3장|props객체, 이벤트 - 1|2025-10-13|
 |4장|props객체, 이벤트 - 2|2025-10-21|
 |5장|컴포넌트의 상태(useState 훅)|2025-10-29|
-|6장|컴포넌트의 상태(useReducer 훅)|2025-11-23|
+|6장|컴포넌트의 상태(useReducer 훅/state 활용)|2025-11-23|
+|7장|컴포넌트 스타일링(다양한 Css 활용)|2025-11-25|
 
 ---
 
@@ -37,7 +38,8 @@ REACT-TS-LOG/
 │   │   ├── ch3/: 3장 컴포넌트 모음 폴더
 │   │   ├── ch4/: 4장 컴포넌트 모음 폴더
 │   │   ├── ch5/: 5장 컴포넌트 모음 폴더
-│   │   └── ch6/: 6장 컴포넌트 모음 폴더
+│   │   ├── ch6/: 6장 컴포넌트 모음 폴더
+│   │   └── ch7/: 7장 컴포넌트 모음 폴더
 │   │
 │   ├── types/
 │   │   └── props.d.ts : 3장 인터페이스 파일 분리
@@ -73,6 +75,7 @@ REACT-TS-LOG/
 ### 📘 Velog (현재 기록)
 - [React + TS 5장 : 컴포넌트의 상태(useState 훅)](https://velog.io/@dfizae/ReactTS-5.-컴포넌트의-상태)
 - [React + TS 6장 : 컴포넌트의 상태(useReducer 훅 + state 활용)](https://velog.io/@dfizae/ReactTS-6.-%EC%BB%B4%ED%8F%AC%EB%84%8C%ED%8A%B8%EC%9D%98-%EC%83%81%ED%83%9C-useReducer-%ED%9B%85)
+- [React + TS 7장 : 컴포넌트 스타일링(다양한 Css 활용)](https://velog.io/@dfizae/React-TS-7장-컴포넌트-스타일링다양한-CSS-활용)
 
 ---
 
